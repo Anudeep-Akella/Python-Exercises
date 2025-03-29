@@ -8,10 +8,12 @@ Then, the output should be:
 40320
 '''
 
+
 def fact(x):
-	if x == 0:
-		return 1
-	return x * fact(x - 1)
+    if x == 0:
+        return 1
+    return x * fact(x - 1)
+
 
 x = int(input("Give a number for finding the factorial: "))
 print(f'factorial of {x} is = {fact(x)}')
